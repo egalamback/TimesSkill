@@ -1,0 +1,12 @@
+{
+  "name": "TimesSkill",
+  "version": "1.0.0",
+  "description": "Skill to tell you important times",
+  "main": "index.js",
+  "author": "Eric Galamback",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ask-sdk": "^2.0.5"
+  }
+}

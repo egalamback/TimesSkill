@@ -1,0 +1,72 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "times",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TodaysGymTimesIntent",
+                    "slots": [],
+                    "samples": [
+                        "today's",
+                        "when is the next open gym",
+                        "gym times",
+                        "when is gym class",
+                        "what are today's gym times"
+                    ]
+                },
+                {
+                    "name": "GymDayOfWeekTimesIntent",
+                    "slots": [
+                        {
+                            "name": "day",
+                            "type": "AMAZON.DayOfWeek"
+                        }
+                    ],
+                    "samples": [
+                        "{day} gym times",
+                        "gym times on {day}"
+                    ]
+                },
+                {
+                    "name": "WigglesTimesIntent",
+                    "slots": [],
+                    "samples": [
+                        "wiggles concert",
+                        "wiggles"
+                    ]
+                },
+                {
+                    "name": "SwimClassTimesIntent",
+                    "slots": [],
+                    "samples": [
+                        "swim class"
+                    ]
+                },
+                {
+                    "name": "TheBestIntent",
+                    "slots": [],
+                    "samples": [
+                        "the best"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
